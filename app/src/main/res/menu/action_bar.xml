@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toolbar ="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_note"
+        android:title="Add Note"
+        android:icon = "@android:drawable/ic_menu_share"
+
+        toolbar:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/setting"
+
+        android:title="Setting" />
+</menu>
+

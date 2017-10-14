@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="20dp"
+    android:id = "@+id/randomcontainer"
+    android:paddingRight="20dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background = "@drawable/blur_nature"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Ben Frankin \n\nHide not your talnets. They for use were made. Wh'ats a sundial in the shade?"
+        android:fontFamily="cursive"
+        android:id = "@+id/randomquote"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="95dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/randomcheckbox"
+        android:layout_alignTop="@+id/randomquote"
+        android:layout_alignEnd="@+id/randomquote"
+        android:layout_marginEnd="26dp"
+        style="?android:attr/starStyle"
+        android:focusable="false"
+        android:checked="false" />
+
+</RelativeLayout>
